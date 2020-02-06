@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 /* doesnt affect the wdith */
 :root {
-  --success-color: #2ecc71;
-  --error-color: #e74c3c;
+  --success-color--: #2ecc71;
+  --error-color--: #e74c3c;
 }
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 body {
   background-color: #f9fafb;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ h2 {
 
 /* */
 .form-control.success input {
-  border-color: var(--sucess-color--);
+  border-color: var(--success-color--);
 }
 .form-control.error input {
   border-color: var(--error-color--);
